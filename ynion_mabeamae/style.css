@@ -40,7 +40,8 @@ body {
 .interest h2,
 .my-works h2,
 .testimonials h2,
-.my-picture h2 {
+.my-picture h2,
+.my-goals h2 {
   background-color: #04023f;
   text-align: center;
   padding: 10px;
@@ -51,11 +52,14 @@ body {
 .interest,
 .my-works,
 .testimonials,
+.my-goals,
 .my-picture ul {
   margin-bottom: 5vw;
 }
 
-.interest ul {
+.interest ul,
+.my-goals > ul,
+.my-goals li {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -110,7 +114,8 @@ ul, ol {
 
 .interest ul,
 .my-works ol,
-.testimonials p {
+.testimonials p,
+.my-goals ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
@@ -153,6 +158,11 @@ p {
 
 .photos img:hover {
   transform: scale(1.1);
+}
+
+.my-goals > ul {
+  text-align: center;
+  color: #63d6d0;
 }
 
 .container {
