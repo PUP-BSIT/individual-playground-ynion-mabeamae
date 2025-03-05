@@ -4,7 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-               "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif;
   align-items: center;
 }
 
@@ -108,7 +108,8 @@ li {
   text-decoration: underline;
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0px;
 }
 
